@@ -16,6 +16,44 @@ body {
 }
 
 /* =====================
+   BACK BUTTON
+   ===================== */
+.back-bar {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 0;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 99px;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.back-btn:hover {
+  color: #fff;
+  border-color: #7b8cff;
+  background: rgba(123,140,255,0.08);
+}
+
+.back-btn svg {
+  transition: transform 0.2s ease;
+}
+
+.back-btn:hover svg {
+  transform: translateX(-3px);
+}
+
+/* =====================
    HERO
    ===================== */
 .hero {
